@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/admin/css/admin_styles.css">
+    <link rel="stylesheet" href="/admin/css/quanlysanpham.css">
+    <link rel="stylesheet" href="/home/css/reset.css">
+
+    <style>
+        #addProductForm input {
+            margin-right: 10px;
+            padding: 5px 10px;
+        }
+        #addProductForm button {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="admin_container">
+        <div class="sidebar">
+            <h2>Quản trị viên</h2>
+            <ul class="sidebar_menu">
+                <li><a href="/admin/admin.html"> 🏠Trang chủ</a></li>
+                <li><a href="#!">👥Quản lý người dùng</a></li>
+                <li><a href="#!">📦Quản lý sản phẩm</a></li>
+                <li><a href="#!">⚙️Cài đặt</a></li>
+                <li><a href="/home/index.html">🚪Đăng xuất</a></li>
+            </ul>
+        </div>
+
+        <div class="admin_quanlysanpham">
+            <h1>Quản lý sản phẩm</h1>
+            <!-- form ẩn -->
+            <button class="button_add" id="showFormBtn">Thêm sản phẩm</button>
+            <form id="addProductForm" style="display:none; margin: 20px 0;">
+                <input type="text" id="productName" placeholder="Tên sản phẩm" required>
+                <input type="number" id="productPrice" placeholder="Giá bán" required>
+                <input type="number" id="productQuantity" placeholder="Số lượng" required>
+                <input type="text" id="productImage" placeholder="Link ảnh sản phẩm" required>
+                <button type="submit">Lưu</button>
+                <button type="button" id="cancelBtn">Hủy</button>
+            </form>
+
+            <table class="product_table">
+                <thead>
+                    <tr>
+                        <th>Tên sản phẩm</th>
+                        <th>Giá bán</th>
+                        <th>Số lượng</th>
+                        <th>Ảnh sản phẩm</th>
+                        <th>Hành động</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Dữ liệu sản phẩm sẽ được thêm vào đây -->
+                </tbody>
+            </table>
+    </div>
+<script src="/admin/quanlysanpham.js"></script>
+</body>
+</html>
