@@ -29,12 +29,14 @@
       text-align: center;
       color: #000000;
       margin-top: 0;
+      font-size: 2em;
     }
 
     label {
       margin-left: 10%;
       display: block;
       margin-top: 15px;
+      font-size: 1em;
     }
 
     input[type="email"],
@@ -45,6 +47,7 @@
       display: block;
       border-radius: 5px;
       border: 2px solid #ccc;
+      font-size: 1em;
     }
 
     button {
@@ -57,7 +60,7 @@
       border: none;
       border-radius: 5px;
       cursor: pointer;
-      font-size: 16px;
+      font-size: 1em;
     }
 
     button:hover {
@@ -72,10 +75,30 @@
     .login-link a {
       color: #4CAF50;
       text-decoration: none;
+      font-size: 0.95em;
     }
 
     .login-link a:hover {
       text-decoration: underline;
+    }
+
+    /* Responsive cho tablet và mobile */
+    @media (max-width: 600px) {
+      form {
+        width: 90%;
+        padding: 25px 15px;
+      }
+
+      .form-box h1 {
+        font-size: 1.6em;
+      }
+
+      label,
+      input,
+      button,
+      .login-link a {
+        font-size: 0.95em;
+      }
     }
   </style>
 </head>
@@ -83,6 +106,7 @@
   <form class="form-dang-ky" action="">
     <div class="form-box">
       <h1>Đăng ký</h1>
+
       <label for="email">Email</label>
       <input type="email" id="email" name="email" placeholder="Nhập email của bạn" required>
 
