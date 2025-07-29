@@ -1,0 +1,212 @@
+
+.thanh_dieu_huong {
+    display: flex;
+    padding: 20px 40px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.short-desc {
+    line-height: 1.6;
+}
+
+.product-meta p {
+    line-height: 1.6;
+
+}
+
+.product-detail {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0;
+    margin-top: 120px;
+    align-items: flex-start;
+}
+.product-image img {
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.product-info {
+    max-width: 500px;
+}
+.product-info h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.price {
+    margin-bottom: 10px;
+}
+.current-price {
+    color: #b10303;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 12px;
+}
+.old-price {
+    color: #888;
+    text-decoration: line-through;
+    font-size: 1.1rem;
+}
+.add-to-cart-form {
+    margin: 18px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.product-meta .add-to-cart-btn {
+    background: #b10303;
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s;
+}
+.add-to-cart-btn:hover {
+    background: #960505;
+}
+
+.product-description {
+    margin: 40px 150px 0 150px;
+    padding: 30px;
+    background: #fafafa;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+
+.product-description h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.product-description i {
+    font-weight: 600;
+}
+
+/* NÚT MUA NGAY */
+.buy-now-btn {
+    margin-top: 16px;
+    background: #825716;
+    color: #fff;
+    border: none;
+    padding: 10px 32px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+.buy-now-btn:hover {
+    background: #e65100;
+}
+
+
+/* SỬA MAIN */
+.product-detail-container {
+    width: 100%;
+    height: 2000px;
+}
+
+/* SẢN PHẨM LIÊN QUAN */
+.san_pham_lien_quan h2 {
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.related-products {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+
+.related-products .product-item-lienquan {
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.product-item-lienquan h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.product-item-lienquan p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #b10303;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* BÌNH LUẬN */
+.product-review {
+    margin: 40px 150px 0 150px;
+    padding: 30px;
+    background: #f8f8f8;
+    border-radius: 10px;
+}
+.product-review h2 {
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+.review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+.review-form input,
+.review-form textarea,
+.review-form select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+.review-form textarea {
+    min-height: 60px;
+    resize: vertical;
+}
+.review-form button {
+    align-self: flex-end;
+    background: #b10303;
+    color: #fff;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s;
+}
+.review-form button:hover {
+    background: #960505;
+}
+.review-list {
+    margin-top: 10px;
+}
+.review-item {
+    background: #fff;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+.review-item .review-name {
+    font-weight: bold;
+    margin-right: 10px;
+}
+.review-item .review-rating {
+    color: #ff9800;
+}
+.review-item .review-content {
+    margin-top: 4px;
+}
