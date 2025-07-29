@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/admin/css/admin_styles.css">
+    <link rel="stylesheet" href="/home/css/reset.css">
+    <link rel="stylesheet" href="/admin/css/quanlynguoidung.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="admin_container">
+        <div class="sidebar">
+            <h2>Quản trị viên</h2>
+            <ul class="sidebar_menu">
+                <li><a href="/admin/admin.html"> 🏠Trang chủ</a></li>
+                <li><a href="#!">👥Quản lý người dùng</a></li>
+                <li><a href="/admin/quanlysanpham.html">📦Quản lý sản phẩm</a></li>
+                <li><a href="#!">⚙️Cài đặt</a></li>
+                <li><a href="/home/index.html">🚪Đăng xuất</a></li>
+            </ul>
+        </div>
+        
+    <div class="quan_ly_nguoi_dung">
+    <h1>Quản lý người dùng</h1>
+    <button id="showUserFormBtn" class="button_add">Thêm người dùng</button>
+    <form id="addUserForm" style="display:none; margin: 20px 0;">
+        <input type="text" id="userId" placeholder="ID" required>
+        <input type="text" id="userName" placeholder="Họ tên" required>
+        <input type="email" id="userEmail" placeholder="Email" required>
+        <input type="text" id="userPhone" placeholder="Số điện thoại" required>
+        <input type="text" id="userAddress" placeholder="Địa chỉ" required>
+        <select id="userStatus" required>
+            <option value="">Trạng thái đơn hàng</option>
+            <option value="Đang xử lý">Đang xử lý</option>
+            <option value="Đã giao">Đã giao</option>
+            <option value="Đã hủy">Đã hủy</option>
+        </select>
+        <button type="submit">Lưu</button>
+        <button type="button" id="cancelUserBtn">Hủy</button>
+    </form>
+    <table class="user_table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Họ tên</th>
+                <th>Email</th>
+                <th>Số điện thoại</th>
+                <th>Địa chỉ</th>
+                <th>Trạng thái đơn hàng</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dữ liệu người dùng sẽ được thêm vào đây -->
+        </tbody>
+    </table>
+</div>
+
+
+    </div>
+    
+    <script src="/admin/quanlynguoidung.js"></script>
+</body>
+</html>
+    
+</body>
+</html>

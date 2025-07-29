@@ -1,11 +1,12 @@
-.admin_quanlysanpham {
+/* Quản lý người dùng */
+.quan_ly_nguoi_dung {
     padding: 40px 60px;
     flex: 1;
     background: #f9f9f9;
     min-height: 100vh;
 }
 
-.admin_quanlysanpham h1 {
+.quan_ly_nguoi_dung h1 {
     font-size: 2.2rem;
     color: #b10303;
     margin-bottom: 24px;
@@ -27,7 +28,7 @@
     background: #960505;
 }
 
-#addProductForm {
+#addUserForm {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
@@ -38,7 +39,8 @@
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 
-#addProductForm input {
+#addUserForm input,
+#addUserForm select {
     padding: 8px 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -46,7 +48,7 @@
     margin-bottom: 8px;
 }
 
-#addProductForm button[type="submit"] {
+#addUserForm button[type="submit"] {
     background: #28a745;
     color: #fff;
     border: none;
@@ -56,10 +58,10 @@
     margin-right: 8px;
     transition: background 0.2s;
 }
-#addProductForm button[type="submit"]:hover {
+#addUserForm button[type="submit"]:hover {
     background: #218838;
 }
-#addProductForm button#cancelBtn {
+#addUserForm button#cancelUserBtn {
     background: #dc3545;
     color: #fff;
     border: none;
@@ -68,46 +70,37 @@
     cursor: pointer;
     transition: background 0.2s;
 }
-#addProductForm button#cancelBtn:hover {
+#addUserForm button#cancelUserBtn:hover {
     background: #b52a37;
 }
 
-.product_table {
+.user_table {
     width: 100%;
     border-collapse: collapse;
     background: #fff;
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
     border-radius: 8px;
     overflow: hidden;
-    margin-top: 20px;
 }
 
-.product_table th, .product_table td {
+.user_table th, .user_table td {
     padding: 12px 16px;
     border: 1px solid #eee;
     text-align: center;
     font-size: 1rem;
 }
 
-.product_table th {
+.user_table th {
     background: #f4f4f4;
     font-weight: 600;
     color: #333;
 }
 
-.product_table tr:nth-child(even) {
+.user_table tr:nth-child(even) {
     background: #fafafa;
 }
 
-.product_table img {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-    border-radius: 6px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-}
-
-.product_table button.deleteBtn {
+.user_table button.deleteUserBtn {
     background: #e53935;
     color: #fff;
     border: none;
@@ -116,6 +109,6 @@
     cursor: pointer;
     transition: background 0.2s;
 }
-.product_table button.deleteBtn:hover {
+.user_table button.deleteUserBtn:hover {
     background: #b71c1c;
 }

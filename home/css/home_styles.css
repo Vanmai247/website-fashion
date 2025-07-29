@@ -31,8 +31,15 @@ header {
     background-color: red;
     
 }
-
-
+/* THANH TÌM KIẾM SẢN PHẨM */
+.search-form input[type="text"] {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    margin-right: 10px;
+    
+}
 
 /* ------------------------------------------------------------------------------ */
 

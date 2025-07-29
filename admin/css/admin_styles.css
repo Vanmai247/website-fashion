@@ -28,10 +28,8 @@
     padding: 20px 0;
 }
 
-.sidebar_menu li a:hover {
-    color: #f0f0f0;
-    
-    
+.sidebar_menu li:hover {
+    background-color: #1d28cc; 
 }
 
 /* ------------------------------------------------------------------

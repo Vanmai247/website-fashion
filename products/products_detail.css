@@ -86,6 +86,16 @@
     font-weight: 600;
 }
 
+.add-to-cart-form label{
+    font-weight: 600;
+   
+}
+
+.product-meta strong {
+    font-weight: 600;
+
+}
+
 /* NÚT MUA NGAY */
 .buy-now-btn {
     margin-top: 16px;
@@ -210,3 +220,5 @@
 .review-item .review-content {
     margin-top: 4px;
 }
+
+
