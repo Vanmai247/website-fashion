@@ -1,5 +1,4 @@
 
-
 header {
     width: 100%;
     height: 60px;
@@ -138,7 +137,7 @@ header {
 
 main {
     width: 100%;
-    height: 4700px;
+    height: auto;
     background-color: #fff;
     margin-top: 60px;
 }
@@ -510,3 +509,12 @@ OUR-STORY*/
 .our-story-content p {
     line-height: 28px;
 }
+
+
+
+
+/* DESKTOP, TABLET, MOBILE */
+/* ------------------ Responsive Design ------------------ */
+
+/* Tablet (768px - 1024px) */
+
