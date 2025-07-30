@@ -1,0 +1,82 @@
+html, body {
+  height: auto;        /* hoặc không cần khai báo height */
+  min-height: 100vh;   /* đảm bảo tối thiểu 100% chiều cao màn hình */
+}
+
+.detail-pay {
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+
+}
+/* CHI TIẾT GIỎ HÀNG */
+.detail-pay .chi-tiet-gio-hang h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.detail-pay .gio-hang-item {
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.detail-pay .gio-hang-info {
+    padding: 20px 0;
+    line-height: 1.6;
+}
+
+.detail-pay .gio-hang-info h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.detail-pay .gio-hang-info p:first-of-type {
+    font-weight: 600;
+    font-size: 16px;
+    color: red;
+}
+
+.gio-hang .phi-giao-hang {
+    margin: 20px 0;
+    padding-bottom: 20px;;
+    border-bottom: 1px solid #ccc;
+}
+
+.gio-hang .phi-giao-hang p strong {
+    color: red;
+    font-weight: 600;
+}
+
+.gio-hang .tong-tien {
+    margin: 20px 0;
+    padding-bottom: 20px;
+}
+.gio-hang .tong-tien p strong {
+    color: red;
+    font-weight: 600;
+}
+
+/* THÔNG TIN NGƯỜI NHẬN HÀNG */
+
+.detail-pay .thong-tin-nguoi-mua h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.thong-tin-nguoi-mua form {
+    margin: 20px 0; 
+    line-height: 1.6;
+}
+
+.thong-tin-nguoi-mua input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
