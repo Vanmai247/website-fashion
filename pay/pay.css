@@ -3,6 +3,10 @@ html, body {
   min-height: 100vh;   /* đảm bảo tối thiểu 100% chiều cao màn hình */
 }
 
+.hang-trong {
+    padding: 50px 0;
+}
+
 .detail-pay {
     display: flex;
     gap: 300px;
@@ -80,3 +84,45 @@ html, body {
     margin-bottom: 20px;
 }
 
+.dien-thoai-lien-lac label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.khu-vuc {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.phuong-thuc-thanh-toan {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button.btn-thanh-toan {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 24px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.btn-thanh-toan:hover {
+    background-color: #218838;
+}

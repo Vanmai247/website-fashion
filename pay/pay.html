@@ -99,9 +99,108 @@
                 <label class="fullname" for="fullname">Họ và tên</label><br/>
                 <input type="text" name="" id="fullname" placeholder="Nhập họ và tên của bạn" required>
             </form>
+
+            <from class="dien-thoai-lien-lac" action="" method="post">
+                <label for="phone">Số điện thoại</label>
+                <input type="text" name="" id="phone" placeholder="Nhập số điện thoại của bạn" required>
+            </from>
+
+            <form class="dia-chi-nhan-hang" action="" method="post">
+                <label for="address">Địa chỉ nhận hàng</label>
+                <input type="text" name="" id="address" placeholder="Nhập địa chỉ nhận hàng của bạn" required>
+            </from>
+
+            <div class="nhan-hang-tai">
+                <p><input type="checkbox" name="" id="">Nhận hàng tại nhà/Công ty/Bưu điện</p>
             </div>
-            
+
+            <select class="khu-vuc" id="province" name="province" required>
+                <option value="">- Chọn Tỉnh/Thành phố -</option>
+                <option value="hanoi">Hà Nội</option>
+                <option value="hcm">TP. Hồ Chí Minh</option>
+                <option value="danang">Đà Nẵng</option>
+                <option value="haiphong">Hải Phòng</option>
+                <option value="cantho">Cần Thơ</option>
+                <option value="quangnam">Quảng Nam</option>
+            </select><br/>
+
+            <select class="khu-vuc" name="" id="">
+                <option value="">- Chọn Quận/Huyện -</option>
+                <option value="quan1">Quận 1</option>
+                <option value="quan2">Quận 2</option>
+                <option value="quan3">Quận 3</option>
+                <option value="quan4">Quận 4</option>
+                <option value="quan5">Quận 5</option>
+            </select><br/>
+
+            <select class="khu-vuc" name="" id="">
+                <option value="">- Chọn Phường/Xã -</option>
+                <option value="phuong1">Phường 1</option>
+                <option value="phuong2">Phường 2</option>
+                <option value="phuong3">Phường 3</option>
+                <option value="phuong4">Phường 4</option>
+                <option value="phuong5">Phường 5</option>
+            </select>
+
+            <form class="ghi-chu" action="" method="post">
+                <textarea name="" id="note" cols="30" rows="5" placeholder="Nhập ghi chú nếu có"></textarea>
+            </form>
+
+            <form class="thanh-toan" action="" method="post">
+                <label for="payment-method">Phương thức thanh toán</label><br/>
+                <select class="phuong-thuc-thanh-toan" name="payment-method" id="payment-method" required>
+                    <option value="">- Chọn phương thức -</option>
+                    <option value="cod">Thanh toán khi nhận hàng (COD)</option>
+                    <option value="bank-transfer">Chuyển khoản ngân hàng</option>
+                    <option value="paypal">Thanh toán qua PayPal</option>
+                </select>
+            </form>
+            <div class="nhan-hang-tai">
+                <p><input type="checkbox" name="" id="">Tôi đã đọc và đồng ý với điều kiện giao dịch chung của Website</p>
+            </div>
+            <button class="btn-thanh-toan" type="submit">Thanh toán</button>
+            </div>
         </section>
     </main>
+
+    <div class="hang-trong"></div>
+
+    <footer id="footer">
+    <div class="nhantin">
+        <h2>Đăng ký nhận tin</h2>
+        <p>Nhận thông tin mới nhất về sản phẩm và ưu đãi từ chúng tôi</p>
+        <form action="">
+            <input type="email" placeholder="Nhập email của bạn" required>
+            <button type="submit">Đăng ký</button>
+        </form>
+    </div>
+    <div class="footer-container">
+        <div class="footer-content">
+            <p><h2>Thông tin liên hệ</h2></p>
+            <p>Email: vanmai756@gmail.com </p>
+            <p>Hotline: 0896672664</p>
+            <p>Địa chỉ: 123 Đường ABC, Quận XYZ, TP. Hồ Chí Minh</p>
+        </div>
+
+        <div class="footer-content">
+            <p><h2>Chính sách</h2></p>
+            <p>Chính sách đổi trả </p>
+            <p>Chính sách bảo hành</p>
+        </div>
+
+        <div class="footer-content">
+            <p><h2>Điều khoản</h2></p>
+            <p>Điều khoản sử dụng</p>
+            <p>Chính sách bảo mật</p>
+        </div>
+
+        <div class="footer-content">
+            <p><h2>Kết nối với chúng tôi</h2></p>
+            <p>Facebook</p>
+            <p>Instagram</p>
+            <p>Tiktok</p>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
