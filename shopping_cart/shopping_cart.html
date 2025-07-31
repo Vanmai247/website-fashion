@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="shortcut icon" href="/assets/img/logo_rawwear.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/home/css/reset.css">
+    <link rel="stylesheet" href="/home/css/home_styles.css">
+    <link rel="stylesheet" href="/products/products_detail.css">
+    <link rel="stylesheet" href="/shopping_cart/shopping_cart.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-header">
+            <ul class="group-2">
+                <li><a href="#footer">CONTACT</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">DOCUMENTATION</a></li>
+                <li><a href="">SUPPORT</a></li>
+            </ul>
+            <form class="search-form" action="#" method="get">
+                <input type="text" name="" placeholder="Tìm kiếm sản phẩm..." />
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <ul class="group-1">
+                <li><a href="/home/login.html">Đăng nhập</a></li>
+                <li><a href="/home/register.html">Đăng ký</a></li>
+                <li><a href="/admin/admin.html">Admin</a></li>
+            </ul>
+        </nav>
+
+        <div class="main-header" >
+        <nav class="nav-main">
+            <div class="logo">
+                <a href=""><img src="/assets/img/logo_rawwear.png" alt="RAWWEAR Logo"></a>
+            </div>
+
+            <ul class="group-3">
+                <li><a href="/home/index.html" class="active"">SHOP</a></li>
+                <li>
+                    <a href="#!">COLLECTIONS</a>
+                    <ul class="sub-menu">
+                        <li><a href="#!">Mùa Xuân</a></li>
+                        <li><a href="#!">Mùa Hạ</a></li>
+                        <li><a href="#!">Mùa Thu</a></li>
+                        <li><a href="#!">Mùa Đông</a></li>
+                    </ul>
+                </li>
+                <li><a href="/products/products_page.html">MEN</a></li>
+                <li><a href="#!">WOMEN</a></li>
+                <li><a href="#our_story">OUR STORY</a></li>
+                <li><a href="#footer">CONTACT</a></li>
+                <li><a href="#!">CART</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <main class="shopping-cart">
+        <section class="pay-dieu-huong">
+            <div class="thanh_dieu_huong">
+                <div><p><a href="/home/index.html" style="text-decoration: none; color: #000;">Trang chủ/</a></p></div>
+                <div><p>Giỏ hàng</p></div>
+            </div>
+        </section>
+
+        <section class="san-pham-trong-gio">
+            <div class="gio-hang">
+                <h2>Giỏ hàng của bạn</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sản phẩm</th>
+                            <th>Giá</th>
+                            <th>Số lượng</th>
+                            <th>Tổng cộng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Áo Polo Nam Basic</td>
+                            <td>199.000 VNĐ</td>
+                            <td>1</td>
+                            <td>199.000 VNĐ</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="tong-tien">
+                    <p>Tổng tiền: <span id="total-price">199.000 VNĐ</span></p>
+                </div>
+                <div class="xac-nhan-thanh-toan">
+                    <button><a href="/pay/pay.html" style="text-decoration: none; color: #fff;">Xác nhận thanh toán</a></button>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    
+</body>
+</html>
