@@ -39,7 +39,7 @@ html, body {
 .detail-pay .gio-hang-info p:first-of-type {
     font-weight: 600;
     font-size: 16px;
-    color: red;
+    color: #B10303;
 }
 
 .gio-hang .phi-giao-hang {
@@ -58,7 +58,7 @@ html, body {
     padding-bottom: 20px;
 }
 .gio-hang .tong-tien p strong {
-    color: red;
+    color: #B10303;
     font-weight: 600;
 }
 
