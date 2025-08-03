@@ -67,6 +67,13 @@
     border-radius: 10px;
 }
 
+video {
+    width: 710px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
 /* Ẩn ban đầu */
 .reveal {
     opacity: 0;
