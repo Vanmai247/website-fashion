@@ -1,0 +1,81 @@
+.about-us {
+    margin: 40px auto;       /* Canh giữa ngang + cách trên dưới */
+    text-align: center;      /* Căn giữa chữ */
+    padding: 0 140px;
+}
+
+.background {
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+}
+
+.background:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.background p:last-of-type {
+    text-align: right;
+    margin-bottom: 10px;
+    font-weight: 600;
+} 
+
+.about-us h1 {
+   
+    font-size: 32px;
+    font-weight: 600;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.about-us p {
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    white-space: normal; /* Cho phép text xuống dòng */
+    word-wrap: break-word; /* Tự ngắt nếu quá dài */
+    line-height: 1.6;
+    text-align: left;
+}
+
+.container-text {
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+
+}
+
+.container-text p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 50px;
+    width: 30%;
+    line-height: 1.6;
+    background-color: #fffaf0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);   
+}
+
+.container-text img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* Ẩn ban đầu */
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Khi cuộn tới thì hiện ra */
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}

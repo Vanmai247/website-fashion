@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giỏ hàng</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="shortcut icon" href="/img/logo_rawwear.jpg" type="image/x-icon">
+    <title>About us</title>
+    <link rel="shortcut icon" href="img/logo_rawwear.jpg" type="image/x-icon">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/home_styles.css">
-    <link rel="stylesheet" href="/css/products_detail.css">
-    <link rel="stylesheet" href="/css/shopping_cart.css">
+    <link rel="stylesheet" href="/css/about_us.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -38,7 +37,7 @@
             </div>
 
             <ul class="group-3">
-                <li><a href="/index.html" class="active"">SHOP</a></li>
+                <li><a href="#!" class="active"">SHOP</a></li>
                 <li>
                     <a href="#!">COLLECTIONS</a>
                     <ul class="sub-menu">
@@ -50,53 +49,36 @@
                 </li>
                 <li><a href="/products_page.html">MEN</a></li>
                 <li><a href="#!">WOMEN</a></li>
-                <li><a href="/about_us.html">ABOUT US</a></li>
+                <li><a href="#our_story">OUR STORY</a></li>
                 <li><a href="#footer">CONTACT</a></li>
                 <li><a href="/shopping_cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
             </ul>
+
+            
         </nav>
         </div>
     </header>
 
-    <main class="shopping-cart">
-        <section class="pay-dieu-huong">
-            <div class="thanh_dieu_huong">
-                <div><p><a href="/index.html" style="text-decoration: none; color: #000;">Trang chủ/</a></p></div>
-                <div><p>Giỏ hàng</p></div>
+    <main class="container-about-us">     
+            <img src="/img/vi-sao-nen-thiet-ke-shop-quan-ao-nam.jpg" alt="" style="display: block; margin: 0 auto;">
+        <section class="about-us">
+            <div class="background reveal">
+                <h1>ABOUT US</h1>
+                <p>Tại RAWWEAR, chúng tôi tin rằng thời trang không chỉ là quần áo – đó là cách bạn thể hiện chính mình.
+                    Được thành lập với sứ mệnh mang đến phong cách hiện đại, năng động và đậm chất riêng, RAWWEAR luôn cập nhật những xu hướng mới nhất và kết hợp tinh tế giữa thiết kế độc đáo và chất lượng cao.
+                    Mỗi sản phẩm của chúng tôi đều được chọn lọc kỹ lưỡng từ chất liệu, kiểu dáng đến từng đường kim mũi chỉ – tất cả nhằm tạo nên trải nghiệm mặc khác biệt cho bạn.
+                    Dù bạn theo đuổi phong cách basic tối giản, streetwear cá tính hay thời thượng táo bạo, RAWWEAR luôn có một item dành riêng cho bạn.<br/>
+                </p>
+                <p>👉 RAWWER – Your style, your statement.</p>
             </div>
         </section>
 
-        <section class="san-pham-trong-gio">
-            <div class="gio-hang">
-                <h2>Giỏ Hàng Của Bạn</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Sản phẩm</th>
-                            <th>Giá</th>
-                            <th>Số lượng</th>
-                            <th>Tổng cộng</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Áo Polo Nam Basic</td>
-                            <td>199.000 VNĐ</td>
-                            <td>1</td>
-                            <td>199.000 VNĐ</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div class="tong-tien">
-                    <p>Tổng tiền: <span id="total-price">199.000 VNĐ</span></p>
-                </div>
-                <div class="xac-nhan-thanh-toan">
-                    <button><a href="/pay.html" style="text-decoration: none; color: #fff;">Xác nhận thanh toán</a></button>
-                </div>
-            </div>
+        <section class="container-text reveal">
+            <p class="reveal" style="transition-delay: 0.2s">RAWWEAR là thương hiệu thời trang hiện đại mang phong cách trẻ trung, cá tính và không ngừng đổi mới. Chúng tôi chuyên cung cấp các sản phẩm quần áo thiết kế độc quyền, phù hợp với nhiều phong cách từ năng động, tối giản đến thời thượng và phá cách.
+                Với phương châm "Chất lượng là ưu tiên, phong cách là dấu ấn", RAWWEAR cam kết mang đến cho khách hàng những trải nghiệm mua sắm tốt nhất – từ chất liệu vải cao cấp, đường may tỉ mỉ đến dịch vụ chăm sóc tận tâm.
+                Hãy đến với RAWWEAR để thể hiện cá tính riêng của bạn qua từng trang phục – vì mỗi người đều xứng đáng được tỏa sáng theo cách của mình.</p>
+            <img class="reveal" src="/img/shopquanao2.jpg" alt="" style="width: 500px; height: 500px;">
         </section>
-
-
     </main>
 
     <footer id="footer">
@@ -136,6 +118,7 @@
         </div>
     </div>
 </footer>
-    
+
+<script src="/js/scrollReveal.js"></script>
 </body>
 </html>
